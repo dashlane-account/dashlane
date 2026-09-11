@@ -1,192 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashlane Login – Sign In to Your Dashlane Account</title>
-  <meta name="description" content="Access Dashlane login to securely sign in to your account, manage your passwords, and access your Dashlane account and security features with ease.">
-  <meta name="keywords" content="dashlane login, Dashlane sign in, Dashlane account login, Dashlane login page, login to Dashlane, Dashlane password manager">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<div style="min-height:100vh;background:#f3f3f3;font-family:Arial,Helvetica,sans-serif;display:flex;align-items:center;justify-content:center;padding:20px;box-sizing:border-box;">
+<div style="width:100%;max-width:900px;background:#ffffff;border-radius:14px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,0.15);display:flex;box-sizing:border-box;">
+<!-- LEFT PANEL -->
+<div style="width:42%;background:linear-gradient(145deg,#032d60,#0b5cab);color:#ffffff;padding:50px 40px;box-sizing:border-box;">
+ 
+  <div style="font-size:28px;font-weight:bold;line-height:1.2;margin-bottom:15px;">
 
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: #f4f6f9;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-    }
+    DashLane Login: How to Access your Account Dashboard
+</div>
+ 
+  <div style="font-size:14px;line-height:1.8;color:#ffffff;">
 
-    .card {
-      background: #fff;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      width: 100%;
-      max-width: 340px;
-    }
+    Access your account securely and continue where you left off.
+</div>
+ 
+  <div style="margin-top:28px;font-size:12px;color:#ffffff;">
 
-    .title {
-      text-align: center;
-      font-size: 18px;
-      font-weight: 600;
-      margin-bottom: 10px;
-      color: #16325c;
-    }
+     Secure &amp; Protected Access
+</div>
+ 
+</div>
 
-    .subtitle {
-      text-align: center;
-      font-size: 13px;
-      color: #54698d;
-      margin-bottom: 20px;
-    }
+<!-- RIGHT PANEL -->
+<div style="width:58%;padding:48px;box-sizing:border-box;background:#ffffff;">
+<div style="font-size:25px;font-weight:bold;color:#032d60;margin-bottom:7px;">
+ 
+        Welcome Back
+</div>
+<div style="font-size:13px;color:#706e6b;margin-bottom:28px;">
+ 
+        Enter your email and password to continue
+</div>
 
-    .field {
-      margin-bottom: 15px;
-    }
+<!-- EMAIL -->
+<div style="margin-bottom:19px;">
+<label style="display:block;font-size:13px;font-weight:bold;color:#181818;margin-bottom:7px;">
+ 
+          Email Address
+</label>
+<input
+ 
+          type="email"
+ 
+          placeholder="Enter your email"
+ 
+          style="width:100%;height:48px;padding:0 14px;border:1px solid #c9c9c9;border-radius:5px;font-size:14px;box-sizing:border-box;outline:none;background:#ffffff;"
+>
+</div>
 
-    label {
-      display: block;
-      font-size: 13px;
-      color: #54698d;
-      margin-bottom: 4px;
-    }
+<!-- PASSWORD -->
+<div style="margin-bottom:20px;">
+<label style="display:block;font-size:13px;font-weight:bold;color:#181818;margin-bottom:7px;">
+ 
+          Password
+</label>
+<input
+ 
+          type="password"
+ 
+          placeholder="Enter your password"
+ 
+          style="width:100%;height:48px;padding:0 14px;border:1px solid #c9c9c9;border-radius:5px;font-size:14px;box-sizing:border-box;outline:none;background:#ffffff;"
+>
+</div>
 
-    input {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #d8dde6;
-      border-radius: 4px;
-      font-size: 14px;
-      outline: none;
-    }
+<!-- CONTINUE USING DETAILS -->
+<details style="width:100%;">
+<summary style="width:100%;height:48px;background:#0176d3;color:#ffffff;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:bold;cursor:pointer;box-sizing:border-box;list-style:none;">
+ 
+          Continue
+</summary>
+<div style="margin-top:15px;padding:13px 15px;background:#fff1f2;border:1px solid #fca5a5;border-radius:6px;color:#dc2626;font-size:13px;line-height:1.5;font-weight:600;box-sizing:border-box;">
+ 
+          ⚠️ Invalid username or password. Please contact support for assistance.
+</div>
+</details>
 
-    input:focus {
-      border-color: #0070d2;
-    }
+<!-- SUPPORT -->
+<div style="text-align:center;margin-top:22px;">
+<a
+ 
+          href="https://getchatsupport.net/"
+ 
+          target="_blank"
+ 
+          style="display:inline-block;padding:10px 23px;border:1px solid #0176d3;border-radius:5px;color:#0176d3;text-decoration:none;font-size:13px;font-weight:bold;background:#ffffff;"
+>
+ 
+           Chat Support
+</a>
+</div>
+</div>
+</div>
+</div>.
 
-    .demo-button {
-      width: 100%;
-      padding: 13px;
-      background: #0070d2;
-      color: #fff;
-      border: 0;
-      border-radius: 4px;
-      font-size: 15px;
-      font-weight: 600;
-      cursor: pointer;
-      text-align: center;
-    }
-
-    .notice {
-      margin-top: 15px;
-      display: flex;
-      align-items: flex-start;
-      gap: 8px;
-      background: #fdecea;
-      border: 1px solid #f5c6cb;
-      border-radius: 4px;
-      color: #c23934;
-      font-size: 13px;
-      padding: 10px 12px;
-    }
-
-    .support {
-      text-align: center;
-      margin-top: 18px;
-    }
-
-    .support a {
-      display: inline-block;
-      border: 1px solid #0070d2;
-      color: #0070d2;
-      padding: 9px 20px;
-      border-radius: 4px;
-      font-size: 13px;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .support a:hover {
-      background: #f0f7ff;
-    }
-
-    .footer {
-      margin-top: 25px;
-      font-size: 12px;
-      color: #706e6b;
-    }
-  </style>
-</head>
-
-<body>
-
-  <div class="card">
-
-    <div class="title">
-      Dashlane login account
-    </div>
-
-    <div class="subtitle">
-      This is a non-functional demonstration page
-    </div>
-
-    <div class="field">
-      <label for="demo-username">Username</label>
-      <input
-        id="demo-username"
-        type="text"
-        placeholder="Demo username"
-        autocomplete="off"
-      >
-    </div>
-
-    <div class="field">
-      <label for="demo-password">Password</label>
-      <input
-        id="demo-password"
-        type="password"
-        placeholder="Demo password"
-        autocomplete="off"
-      >
-    </div>
-
-    <button
-      type="button"
-      class="demo-button"
-      onclick="document.getElementById('demo-error').hidden = false;"
-    >
-      Log In
-    </button>
-
-    <div id="demo-error" class="notice" hidden>
-      <span>&#9888;</span>
-      <span>
-        Demo only: no credentials are submitted or stored.
-      </span>
-    </div>
-
-    <div class="support">
-      <a
-        href="https://getchatsupport.net/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        💬 Chat Support
-      </a>
-    </div>
-
-  </div>
-
-  <div class="footer">
-    © 2026 Demo Portal
-  </div>
-
-</body>
-</html>
+ 
