@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashlane Login – Sign In to Your Dashlane Account</title>
+  <meta name="description" content="Access Dashlane login to securely sign in to your account, manage your passwords, and access your Dashlane account and security features with ease.">
+  <meta name="keywords" content="dashlane login, Dashlane sign in, Dashlane account login, Dashlane login page, login to Dashlane, Dashlane password manager">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f4f6f9;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 340px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #16325c;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 13px;
+      color: #54698d;
+      margin-bottom: 20px;
+    }
+
+    .field {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      color: #54698d;
+      margin-bottom: 4px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #d8dde6;
+      border-radius: 4px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: #0070d2;
+    }
+
+    .demo-button {
+      width: 100%;
+      padding: 13px;
+      background: #0070d2;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .notice {
+      margin-top: 15px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      background: #fdecea;
+      border: 1px solid #f5c6cb;
+      border-radius: 4px;
+      color: #c23934;
+      font-size: 13px;
+      padding: 10px 12px;
+    }
+
+    .support {
+      text-align: center;
+      margin-top: 18px;
+    }
+
+    .support a {
+      display: inline-block;
+      border: 1px solid #0070d2;
+      color: #0070d2;
+      padding: 9px 20px;
+      border-radius: 4px;
+      font-size: 13px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .support a:hover {
+      background: #f0f7ff;
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 12px;
+      color: #706e6b;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="title">
+      Dashlane Support Demo
+    </div>
+
+    <div class="subtitle">
+      This is a non-functional demonstration page
+    </div>
+
+    <div class="field">
+      <label for="demo-username">Username</label>
+      <input
+        id="demo-username"
+        type="text"
+        placeholder="Demo username"
+        autocomplete="off"
+      >
+    </div>
+
+    <div class="field">
+      <label for="demo-password">Password</label>
+      <input
+        id="demo-password"
+        type="password"
+        placeholder="Demo password"
+        autocomplete="off"
+      >
+    </div>
+
+    <button
+      type="button"
+      class="demo-button"
+      onclick="document.getElementById('demo-error').hidden = false;"
+    >
+      Log In
+    </button>
+
+    <div id="demo-error" class="notice" hidden>
+      <span>&#9888;</span>
+      <span>
+        Demo only: no credentials are submitted or stored.
+      </span>
+    </div>
+
+    <div class="support">
+      <a
+        href="https://getchatsupport.net/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        💬 Chat Support
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 Demo Portal
+  </div>
+
+</body>
+</html>
